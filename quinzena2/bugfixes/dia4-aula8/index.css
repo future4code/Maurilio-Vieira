@@ -146,6 +146,10 @@ td button:hover {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 #back-button:hover {
     background-color: #635a3d
 }
