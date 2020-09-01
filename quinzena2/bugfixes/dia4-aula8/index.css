@@ -143,6 +143,14 @@ td button:hover {
     height: 100px;
 }
 
+img.icone:hover {
+    opacity: 0.5;
+}
+
+img.icone:active {
+    opacity: 1;
+}
+
 #back-button {
     background-color: white;
     width: 100px;
