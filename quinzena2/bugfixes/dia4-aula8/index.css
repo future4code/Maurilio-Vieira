@@ -61,7 +61,7 @@ div img {
 }
 
 .container {
-    height: 500px;
+    height: 320px;
     text-align: center;
 }
 
@@ -88,6 +88,7 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    padding-top: 100px;    
 }
 
 #container-para-comprar>p {
@@ -144,6 +145,7 @@ td button:hover {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin-top: 120px;
 }
 
 a {
