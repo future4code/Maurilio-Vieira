@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #1a1a1a;
+    padding: 16px;
+    text-align: center;
+}
+
+.banner , .chamada-logo {
+    background-color: #F79A8A;
+    color: white;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.chamada-clique {
+    margin: 10px 0;
+}
+
+.tabela-estoque {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redes-sociais {
+    background-color: white;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+div p {
+    padding: 16px;
+}
+div a {
+    color: white;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+}
+
+ul li {
+    text-decoration: none;
+}
+
