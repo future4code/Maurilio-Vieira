@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: #dcdcdc;
+}
+
+section {
+    background-color: #dcdcdc;
+    text-align: center;
+}
+
+div p {
+    padding: 16px;
+}
+
+div li {
+    padding: 4px;
+}
+
+div a {
+    color: white;
+}
+
+a.contato {
+    color: black;
+}
+
+.menu {
+    background-color: #1a1a1a;
+    padding: 16px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.menu a {
+    margin-left: 50px;
+}
+
+.banner , .chamada-logo {
+    background-color: crimson;
+    color: white;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.desenho-pessoa {
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.tabela {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.titulos-projetos {
+    margin: 16px 0 32px 0;    
+}
+
+th, td {
+    padding: 16px;
+}
+
+label {
+    display: block;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.redes-sociais {
+    text-align: center;
+}
+
+.copyright {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
