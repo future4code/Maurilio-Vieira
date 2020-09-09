@@ -1,0 +1,94 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    color: white;
+}
+
+#main-conteiner {
+    min-height: 100vh;
+}
+
+#top-container {
+    display: grid;
+    grid-template-rows: 35px;
+    grid-template-columns: 1fr 3fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.16px;
+}
+
+#middle-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+#content2 {
+    column-span: 2;
+}
+
+#blank {
+
+}
+
+#vertical-middle-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: stretch;
+}
+
+.green-background {
+    background-color: green;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-background {
+    background-color: yellow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-background {
+    background-color: fuchsia;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows:1fr;
+    height: 60vh;
+}
+
+.blue-background {
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.red-background {
+    background-color: red;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightgreen-background {
+    background-color: lightgreen;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-background {
+    background-color: purple;
+    height: 70px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
