@@ -1,0 +1,146 @@
+/* Zerando configs iniciais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Definindo altura e largura principal*/
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #dae1f5;
+}
+
+
+.main-container {
+    background-color: white;
+    min-height: 100vh;
+    border: 1px solid black;
+}
+
+/* Configs do menu */
+
+.menu {
+    padding: 16px;
+    width: 84%;
+    background-color: cornflowerblue;
+    color: azure;
+    margin: 0;
+}
+
+nav {
+   width: auto;
+   display: flex;
+   place-items: center;
+}
+
+ul {
+    list-style-position: inside;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+li a:hover {
+    background-color: azure;
+    color: #2e3237;
+}
+
+
+/* Estilizando imagens */
+
+.container-imagem {
+    text-align: center;   
+}
+
+.imagem-logo {
+    height: 100px;
+    width: 90vw;
+}
+
+.imagem-esticada {
+    width: 70vw;
+    height: 35vh;
+}
+
+.canto-arredondado {
+    border-radius: 10px;
+}
+
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 32px 0;
+}
+
+p{
+    margin:3% 0 3% 0;
+    padding: 12px;
+}
+
+button {
+    color: beige;
+    background-color: coral;
+    font-size: 20px;
+}
+
+button:active {
+    color: coral;
+    background-color: white;
+}
+
+/* Configs Rodapé */
+
+footer {
+    background-color: #2e3237;
+    color: azure;
+    margin: 3% 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.midias-sociais {
+    width: 56px;
+    height: 56px;
+}
+
+/* Tratamento de tamanho de telas - Acima de 1200px */
+
+@media (min-width: 1200px) {
+
+    body {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imagem-esticada, .imagem-logo{
+        width: 800px;
+        height: 600px;
+    }
+}
